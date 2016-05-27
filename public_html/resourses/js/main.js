@@ -20,7 +20,7 @@ window.onload = function() {
 			loginSubmit.style.display = "block";
 		}
 		
-		loginLink.addEventListener('click', showLoginForm, false);
+//		loginLink.addEventListener('click', showLoginForm, false);
 
 
 		function showAuthorizedSection() {
@@ -50,7 +50,7 @@ window.onload = function() {
 			}
 		}
 
-		loginSubmit.addEventListener('click', logIn, false);
+//		loginSubmit.addEventListener('click', logIn, false);
 
 
 		function logOut() {
@@ -60,14 +60,14 @@ window.onload = function() {
 			loginLink.style.display = "block";
 		}
 
-		logoutLink.addEventListener('click', logOut, false);
+//		logoutLink.addEventListener('click', logOut, false);
 
 
 		function getProfile() {
 			console.log('Profile link was clicked');
 		}
 
-		profileLink.addEventListener('click', getProfile, false);
+//		profileLink.addEventListener('click', getProfile, false);
 
 	})();
 
