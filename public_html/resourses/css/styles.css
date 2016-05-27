@@ -1,21 +1,9 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: none;
-}
+
 ul li, ol li {
     list-style: none;
 }
-.clearfix:before, .clearfix:after {
-    content: "";
-    display: table;
-}
-.clearfix:after {
-    clear: both;
-}
+
 /* Links */
 body {
     font: 1.5em/150% "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -40,7 +28,7 @@ a:focus {
 */
 #main-container {
     margin-top: 100px;
-    width: 980px;
+    width: 500px;
     margin: 0 auto;
 }
 

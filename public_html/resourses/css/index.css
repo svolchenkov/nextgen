@@ -10,9 +10,9 @@ and open the template in the editor.
 
 h1#fan {
     background: url(../img/es.png) no-repeat;
-    width: 400px;
-    height: 217px;
-    margin-left: 250px;
+    width: 500px;
+    height: 200px;
+    margin-left: 90px;
 }
 .tooltip {
     position: relative;
