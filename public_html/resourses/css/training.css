@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 9, 2016, 2:23:21 PM
+    Author     : Sergey
+*/
+
+body {
+    font-family:Verdana,sans-serif;font-size:0.8em;
+    width: 1130px;
+    margin: 0 auto;
+}
+div#header,div#footer,div#content,div#post {
+    margin:5px;
+    margin-bottom:15px;
+    padding:8px;
+    background-color:white;
+}
+div#header {
+    margin-top: 50px;
+    color:white;
+    background-color:white;
+    margin-bottom:1px;
+    border-bottom: 7px solid #23424C;
+    padding: 10px;
+    padding-left: 50px;
+}
+div#footer {
+    margin-top: 50px;
+    color:white;background-color:white;margin-bottom:10px;
+    border-bottom: 7px solid #31698a;
+    padding: 20px;
+}
+div#content {
+    background-color:#ddd;
+}
+div#menu ul  {
+    margin:0;
+    padding:20px;
+    padding-left: 100px;
+}
+div#menu ul li {
+    display:inline;
+    margin: 15px;
+}
+a:link    {
+    color:#2c3e50; 
+    background-color:transparent; 
+    text-decoration:none
+}
+h1 {
+    font-size: 250%;
+}
+h3 {
+    font-size: 190%;
+    font-family: sans-serif;
+    text-align: center;
+    color: #23424C;
+}
+h4 {
+    font-size: 130%;
+    margin: -20px;
+}
+h5#text {
+    font-size: 130%;
+    font-style: initial;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #23424c;
+    font-stretch: expanded;
+    line-height: 3;
+}
+#traningpicture {
+    background: url(../img/1.jpeg) no-repeat;
+    width: 750px;
+    height: 501px;
+    margin: 0 auto;
+    padding: 20px;
+}
